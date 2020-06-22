@@ -44,3 +44,11 @@ Java License:
 	* around the clock support.
 
 
+
+Identity name rules:  
+* number + letter + underscore + $
+* DON'T use number at the first letter.
+
+Examples:  
+* 小驼峰命名法 (for method & variables): name, setName()
+* 大驼峰命名法 (for class): Scanner
