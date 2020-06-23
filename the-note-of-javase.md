@@ -12,7 +12,7 @@ Java (software platform):
 * Typing discipline: static, strong, safe, nominative, manifest
 
 Java platform, standard edition:  
-* JavaSE is a coputing platform for development and deployment of portable code
+* JavaSE is a computing platform for development and deployment of portable code
 for desktop & server environments.
 * The platform uses Java programming language and is part of the Java
   software-platform family. JavaSE defines a range of general-purpose APIs-such
@@ -52,3 +52,85 @@ Identity name rules:
 Examples:  
 * 小驼峰命名法 (for method & variables): name, setName()
 * 大驼峰命名法 (for class): Scanner
+
+
+## 1) Basics
+
+The anatomy of Java
+```java
+package javass.lang;
+
+import java.lang;	// Don't need to import java.lang.
+import java.util;
+
+public class Demo {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World!");
+	}
+
+class MyOtherClass {}
+
+}
+```
+
+Variables, data type, type casting, operators:  
+* data type: primitive data type, reference data type
+* type casting: Widening Casting (automatically) & Narrowing Casting (manually)
+	* Widening Casting: convert a smaller type to a large type size.
+	* Narrowing Casting: convert a larger type to a smaller type size.
+
+Operators (used to perform operations on variables and values):  
+* Arithmetic operators (used to perform common mathmetical operations.)
+	* `+`, addition
+	* `-` subtraction
+	* `*` multiplication
+	* `/` division
+	* `%` modulus: returns the division remainder
+	* `++` increment: increases the value of a variable by 1
+	* `--` decrement: decreases the value of a variable by 1
+	* `logical statement ? statement : statement` 三元运算符
+* Assignment operators
+* Comparison operators
+	* `==` Equal to 
+	* `!=` Not equal
+	* `>` Greater than
+	* `<` Less than
+	* `>=` Greater than or equal to
+	* `<=` Less than or equal to
+* Logical operators
+	* `&&` Logical and
+	* `||` Logical or
+	* `!` Logical not
+* Bitwise operators
+	* `<<` left shift
+	* `<<<` unsigned left shift
+	* `>>` right shift
+	* `>>>` unsigned right shift
+	* `&` AND
+	* `^` XOR
+	* `|` OR
+
+
+What are literals in Java?  
+Literals in Java are a sequence of characters (digitals, letters, and other
+characters) that represent values to be stored in variables. Java language
+specification specifies five major type of literals:  
+* Integer literals
+* Floating-point literals
+* Character literals (String literals)
+* Escape character (is a character that invokes an alternative interpretation on
+  subsequent characters in a character sequence.)
+  	* non-printable characters
+		* \\n: new line
+		* \\t: tab
+		* \\b: backspace
+		* \\r: carriage return (CR LF: Windows; LF: Unix, macOS; CR: OS 9)
+	* printable characters: 
+		* `\u0041`: A, `\u0030`: 0: 
+* Boolean literals
+* Null literals
+
+
+NOTICE:  
+* floating-point number 无法准确表示实数. 不符合数学中的分配律和结合律
