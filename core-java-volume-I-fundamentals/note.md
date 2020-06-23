@@ -1,6 +1,43 @@
-# Core Java volume I - fundamentals (10th)
+# Core Java volume I - fundamentals (11th)
 
 > Cay S. Horstmann
+
+'Core java 11th' was updated to reflect the features of Java Standard Edtion 9,
+10 and 11.
+
+Advanced programming tasks:  
+* network programming
+* database connectivity
+* concurrency
+
+APIs of JDK in 2015: 200 -> 4000 classes.
+
+This book will give us a detailed treatment of:  
+* Object-oriented programming
+* Reflection and proxies
+* Interfaces and inner classes
+* Exception handling
+* Generic programming
+* The collections framework
+* The event listener model
+* Graphical user interface design
+* Concurrency
+
+'The volume I' concentrates on the fundamental concepts of the Java language,
+along with the basics of user-interface programming.
+
+'The volume II' goes further into the enterprise features and advanced
+user-interface programming. It includes detailed discussions of:  
+* The stream API
+* File processing and regular expressions
+* Databases
+* XML processing
+* Annotations
+* Internationalization
+* Network programming
+* Advanced GUI components
+* Advanced graphics
+* Native methods
 
 ## Chapter 1 An introduction to Java
 
@@ -259,7 +296,7 @@ public class Demo {
 
 
 
-## Chapter 10 Graphics programming
+## Chapter 10 Graphical user interface programming
 
 ### 10.1 Introducing Swing
 
@@ -294,125 +331,14 @@ public class Demo {
 
 
 
+## Chapter 11 User interface components with Swing
 
 
-## Chapter 11 Event handling
 
-### 11.1 Basics of event handling 
 
+## Chapter 12 Concurrency
 
 
-### 11.2 Actions
-
-
-
-### 11.3 Mouse events
-
-
-
-### 11.4 The AWT event history
-
-
-
-## Chapter 12 User interface components with Swing
-
-### 12.1 Swing and the MVC. (Model-View-Controller) design pattern
-
-
-
-### 12.2 Intro. to layout management
-
-
-
-### 12.3 Text input
-
-
-
-### 12.4 Choice components
-
-
-
-### 12.5 Menus
-
-
-
-### 12.6 Sophisticated layout management
-
-
-
-### 12.7 Dialog boxes
-
-
-
-### 12.8 Troubleshooting GUI programs
-
-
-
-## Chapter 13 Deploying java applications
-
-### 13.1 Jar files
-
-
-
-### 13.2 Storage of application references
-
-
-
-### 13.3 Service loaders
-
-
-
-### 13.4 Applets
-
-
-
-### 13.5 Java Web start
-
-
-
-## Chapter 14 Concurrency
-
-### 14.1 What are threads
-
-
-
-### 14.2 Interrupting threads
-
-
-
-### 14.3 Thread states
-
-
-
-### 14.4 Thread properties
-
-
-
-### 14.5 Synchronization
-
-
-
-### 14.6 Blocking Queues
-
-
-
-### 14.7 Thread-safe collections
-
-
-
-### 14.8 Callables and futures
-
-
-
-### 14.9 Executors
-
-
-
-### 14.10 Synchronizers
-
-
-
-### 14.11 Threads and Swing
 
 
 
