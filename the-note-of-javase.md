@@ -134,3 +134,6 @@ specification specifies five major type of literals:
 
 NOTICE:  
 * floating-point number 无法准确表示实数. 不符合数学中的分配律和结合律
+
+
+
