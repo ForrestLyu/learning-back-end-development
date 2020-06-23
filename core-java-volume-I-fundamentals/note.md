@@ -40,11 +40,7 @@
 
 
 
-### 2.4 Running a graphical application
-
-
-
-### 2.5 Building and running applets
+### 2.4 JShell
 
 
 
