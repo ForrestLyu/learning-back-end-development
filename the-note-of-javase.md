@@ -135,5 +135,25 @@ specification specifies five major type of literals:
 NOTICE:  
 * floating-point number 无法准确表示实数. 不符合数学中的分配律和结合律
 
+## ) Basic syntax of Java programming language
 
+`break` VS. `continue`  
 
+```java
+// break used in switch statement and loop statement.
+// continue used in loop statement.
+
+while (i < 10) {
+	// do some stuff.
+	if (i < 0) {
+		break; // jump out the loop.
+	}
+}
+
+while (i < 10) {
+	// do some stuff.
+
+	continue;	// break the current iteration, and continue with the
+			// next iteration in the loop.	
+}
+```
