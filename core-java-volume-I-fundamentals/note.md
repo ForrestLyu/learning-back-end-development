@@ -2,9 +2,58 @@
 
 > Cay S. Horstmann
 
+The 11th edition has been updated to reflect the features of Java Standard Edition (SE) 9, 10 and 11.
+
+We assume you are willing, even eager, to learn about all the advanced features that Java puts at disposal.  
+- Object-oriented programming
+- Reflction and proxies
+- Interfaces and inner classes
+- Exception handling
+- Generic programming
+- The collections framework
+- The event listener model
+- Graphcial user interface design
+- Concurrency
+
+In volume II:  
+- The steam API
+- File processing and regular expressions
+- Databases
+- XML processing
+- Annatations
+- Internationalization
+- Network programming
+- Advanced GUI components
+- Advaned graphcis
+- Native methods
+
 ## 1 An introduction to Java
 ### 1.1 Java as a programming platform
+
+Java is a whole platform, with a huge library, containing lots of reusable code, and an execution environment that provides services such as security, portability across operating systems, and automatic garbage collection.
+
 ### 1.2 The Java 'White Paper' buzzwords
+
+* Simple
+* Obejct-oriented
+* Distributed
+* Robust
+* Secure
+
+Java is intented to be used in network/ditributed environments. Toward that end, a lot of emphasis has been placed on security. Java enables the construction of virus-free, tamper-free systems.
+
+From the beginning, Java was designed to make certain kinds of attacks impossible, among them:  
+- Overrunning the runtime stack - a common attack of worms and viruses
+- Corrupting memory outside its own process space
+- Reading or writing files without permission
+
+* Architecture-neutral
+* Portable
+* High-performance
+* Multithreaded
+* Dynamic
+
+
 ### 1.3 Java applets and the Internet
 ### 1.4 A short history of Java
 ### 1.5 Common misconceptions about Java
@@ -16,6 +65,52 @@
 ### 2.4 JShell
 
 ## 3 Fundamental programming structures in Java
+
+```java
+package javass.lang;
+
+import java.lang;   // default import.
+import java.util.Math;  // Math util class
+
+public class Demo { // Class name must start with uppercase letter
+    
+    public static void main(String[] args) {
+
+    /*
+    1. Comemnts
+    2. Data types: 
+        - Primitive type: Integer (byte, short, int, long), Floating-point (float, double), char, boolean
+        - Reference type: Object, String, etc.
+
+    3. Variables and constants:
+        - Definite variables = declare variables + initialize variables
+        - Constants: literals
+        - Enumerated types
+    4. Operators
+        - Arithmetic operators
+        - Assignment operators
+        - Comparasiong operators
+        - Logical operators
+        - Bitwise operators
+    ATTENTION:
+        - Conversions between numeric types
+        - Casts
+        - Operator hierarchy
+    5. Strings
+        - Substrings, concatenation, immutable
+        - equality 
+        - empty and null strings
+        - code points and code units
+        - String APIs
+        - Building Strings
+    6. Input and output
+    7. Control flow
+    8. Big numebr
+    9. Arrays
+    */
+    }
+}
+```
 ### 3.1 A simple Java program
 ### 3.2 Comments
 ### 3.3 Data types
@@ -29,6 +124,13 @@
 
 ## 4 Objects and classes
 ### 4.1 Intro. to object-oritened programming
+
+Classes
+Objects
+Identifying classes
+Relationships between classes
+
+
 ### 4.2 Using predefined classes
 ### 4.3 Defining your own classes
 ### 4.4 Static fields and methods
