@@ -56,6 +56,30 @@ From the beginning, Java was designed to make certain kinds of attacks impossibl
 
 ### 1.3 Java applets and the Internet
 ### 1.4 A short history of Java
+
+- 1998, Introduce J2SE, J2ME, J2EE
+- 2004, Java SE 5.0
+    - generic types, foreach loop, autobox, annotation
+- 2006, Java SE 6
+- 2014, Java 8 by Oracle
+    - 'functional' style of programming
+- 2017, Java 9
+    - modules
+- Starting in 2018, Java versions are released every six months, to enable faster introcution of features.
+- Java 11, is long-term support version.
+
+- 1.0, 1996, the language itself, 211 (number of classes and interfaces)
+- 1.1, 1997, inner classes, 477
+- 1.2, 1998, the strictfp modifier, 1524
+- 1.3, 2000, none, 1840
+- 1.4, 2002, Assertions, 2723
+- 5.0, 2004, generic classes, foreach loop, varargs, autoboxing, metadata, enumerations, static import, 3279
+- 6, 2006, none, 3793
+- 7, 2011, switch with strings, diamond operator, binary literals, exception handling enhancements, 4024
+- 8, 2014, lambda expressions, interfaces with default methods, stream and date/time libraries
+- 9, 2017, modules, miscellaneous language and library enhancements, 6005
+
+
 ### 1.5 Common misconceptions about Java
 
 ## 2 The java programming environment
